@@ -1,0 +1,84 @@
+
+$font-stack: Helvetica, sans-serif;
+$legend-color : rgb(118, 118, 117);
+$primary-color :rgba(255, 242, 242, 0.87);
+
+div {
+    border-radius: 5px;
+
+
+    .firstContainer {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(214, 217, 214);
+        box-shadow: 0px 0px 5px gray;
+        width : 45rem;
+        height: 18rem;
+        box-shadow: 0px 0px 5px gray;
+
+        img {
+            width:20rem ;
+            height: 18rem;
+            border-radius: 5px 0 0 5px;
+        }
+        .albumTitle {
+            
+            width: 30rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 5%;
+            margin-left: 10%;
+            text-shadow: 0px 0px 1px gray;
+    
+            font-family: $font-stack;
+            font-size: larger;
+        }
+        h2 {
+            color: black;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            margin-top: 0;
+            font-weight: lighter;
+    
+        }
+        h3 {
+            color: $legend-color;
+            margin: 0 0 0 0;
+        }
+    }
+    .review {
+        width : 45rem;
+        height: 3.5rem;
+        background-color: rgb(214, 217, 214);
+        margin-top: 0.1rem;
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0px 0px 10px gray;
+
+        justify-content: space-between;
+        align-items: center;
+        text-shadow: 0px 0px 1px gray;
+        p {
+            font-family: $font-stack;
+            color: $legend-color;
+            font-weight: bold;
+            margin-left: 4%;
+        }
+        .stars {
+            display: flex;
+            flex-direction: row;
+            gap: 0.8rem;
+            margin-right: 4%;
+            color: rgba(182, 176, 176, 0.87);
+    
+        }
+    }
+
+}
+
+
+
+
+
